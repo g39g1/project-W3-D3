@@ -1,0 +1,330 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+
+
+.header {
+background-color: #135cfa;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0 5%;
+}
+
+.nav_header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 10vh;
+width: 100%;
+padding: 1% 0%;
+}
+
+
+
+.nav-logo {
+width: 70%;
+height: 70%;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+
+.nav-logo img {
+height: 30%;
+object-fit: cover;
+}
+
+.item_nav {
+width: 50%;
+}
+
+.item_nav ul {
+display: flex;
+justify-content: center;
+font-size: 1rem;
+width: 100%;
+gap: 8%;
+font-weight: 600;
+font-size: 0.8rem;
+}
+.item_nav li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: #d3dcff;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav-btns {
+width: 20%;
+display: flex;
+gap: 8%;
+justify-content: end;
+align-items: center;
+}
+
+.nav-btns a {
+border-radius: 5px;
+
+height: 5vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 600;
+font-size: 0.8rem;
+color: #d3dcff;
+}
+
+.nav-btns a:hover {
+color: white;
+}
+
+.btn-nav {
+background-color: #2886ff;
+border-radius: 5px;
+cursor: pointer;
+width: 70%;
+height: 70%;
+font-weight: 550;
+font-size: 0.8rem;
+color: white;
+border: none;
+}
+
+
+.prgorf_nav{
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+}
+
+
+.nav_section{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 10vh;
+    margin-right: 10vh; 
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-top: 3vh;
+    
+}
+section a{
+    text-decoration: none;
+    color: rgb(23, 22, 22);
+}
+
+
+.card_container{
+    display: flex;
+    justify-content: start;
+    
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    gap: 2vr;
+   margin-left: 9vh;
+   margin-top: 10vh;
+
+}
+.card{
+width:25%;
+height: auto;
+border-radius: 10px;
+
+
+ 
+}
+.card img{
+    width: 70%;
+    
+}
+
+.crad-content h5{
+font-size: 15px;
+margin-top: 2vh;
+
+
+}
+
+.crad-content p{
+    
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+
+}
+
+/*anther*/
+
+.card_container_anther{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    gap: 2vr;
+   margin-left: 9vh;
+   margin-top: 10vh;
+
+}
+
+.card_anther{
+    width:25%;
+height: auto;
+border-radius: 10px;
+}
+
+.card_anther img{
+    width: 70%;
+}
+
+.crad-content-anther p{
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+
+}
+
+.card_container_anther h5{
+    font-size: 15px;
+margin-top: 2vh;
+
+
+}
+
+.card_container_last{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    gap: 2vr;
+   margin-left: 10vh;
+   margin-top: 10vh;
+}
+
+.card_last{
+
+    width:25%;
+    height: auto;
+    border-radius: 10px;
+    }
+.card_last img{
+    width: 70%;
+}
+.crad-content-last p{
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.card_container_last h5{
+    font-size: 15px;
+    margin-top: 2vh;
+   
+    margin-right: 2vh;
+}
+
+.prgraf_footer{
+    text-align: center;
+    color: black;
+    margin-top:15vh ;
+}
+
+.prgraff_footer{
+    text-align: center;
+    color: rgb(86, 86, 86);
+    margin-top:5vh;
+}
+
+.button_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    width: 100%;
+    height: auto;
+    gap: 0.5vh;
+    background-color: #f8f8f8;
+    
+}
+input{
+    width: 20%;
+    height: 6vh;
+}
+button{
+    width: 10%;
+    color: #e9eaed;
+    background-color: #135cfa;
+    font-size: large;
+    
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-top: 4vh;
+  }
+  
+  
+  .footer-section {
+    flex: 1; 
+    padding: 0 10px;
+  }
+  
+  
+  .footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+  .footer-section ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+
+  
+   

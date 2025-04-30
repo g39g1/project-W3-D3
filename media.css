@@ -1,0 +1,249 @@
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+    .nav_header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .item_nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .item_nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .nav-btns {
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .nav-btns a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .prgorf_nav {
+        font-size: 1.2rem;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    
+    .nav_section {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 3vh;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav_section a {
+        font-size: 1rem;
+    }
+
+   
+    .card_container,
+    .card_container_anther,
+    .card_container_last {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .card_anther,
+    .card_last {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .card img,
+    .card_anther img,
+    .card_last img {
+        width: 100%;
+        height: auto;
+    }
+
+    .crad-content h5 {
+        font-size: 1.2rem;
+    }
+
+    .crad-content p {
+        font-size: 1rem;
+    }
+
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+        font-size: 1rem;
+    }
+
+    
+    .button_footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input {
+        width: 80%;
+        height: 5vh;
+    }
+
+    button {
+        width: 80%;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .nav_header {
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        padding: 15px 5%;
+    }
+
+    .nav-logo {
+        width: 30%;
+        justify-content: center;
+    }
+
+    .item_nav {
+        width: 40%;
+    }
+
+    .item_nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 1rem;
+        align-items: center;
+    }
+
+    .nav-btns {
+        width: 30%;
+        display: flex;
+        justify-content: end;
+        gap: 15px;
+    }
+
+    .prgorf_nav {
+        font-size: 1.5rem;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    
+    .nav_section {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 2vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .nav_section a {
+        font-size: 1rem;
+    }
+
+   
+    .card_container,
+    .card_container_anther,
+    .card_container_last {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .card,
+    .card_anther,
+    .card_last {
+        width: 22%;
+        margin-bottom: 20px;
+    }
+
+    .card img,
+    .card_anther img,
+    .card_last img {
+        width: 100%;
+        height: auto;
+    }
+
+    .crad-content h5 {
+        font-size: 1.2rem;
+    }
+
+    .crad-content p {
+        font-size: 1rem;
+    }
+
+    
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .footer-section {
+        width: 23%;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+        font-size: 1rem;
+    }
+
+   
+    .button_footer {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    input {
+        width: 60%;
+        height: 5vh;
+    }
+
+    button {
+        width: 30%;
+        font-size: 1rem;
+    }
+}
+
